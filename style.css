@@ -1,0 +1,18 @@
+body, html {
+  margin: 0;
+}
+
+body {
+  background-image: url("https://dl.dropbox.com/s/3ei3gcdzl3r0xuv/firstDate.jpg?dl=0");
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5em;
+}
