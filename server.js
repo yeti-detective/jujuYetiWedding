@@ -3,6 +3,8 @@ const app = express();
 
 const path = require('path');
 
+var port = process.env.PORT || 3000
+
 app.get('/', (req, res)=>{
 	res.sendFile(path.join(__dirname + '/index.html'));
 });
@@ -16,6 +18,6 @@ app.get('/style', (req, res)=>{
 })
 
 // the app will listen for requests on port 3000
-app.listen(3000, ()=>{
-	console.log('listening on http://localhost:3000');
+app.listen(port, ()=>{
+	console.log('listening on http://localhost:' + port);
 });

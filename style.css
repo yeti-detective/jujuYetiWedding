@@ -4,7 +4,11 @@ body, html {
 }
 
 body {
-  background-image: url("https://dl.dropbox.com/s/3ei3gcdzl3r0xuv/firstDate.jpg?dl=0");
+  background: linear-gradient(#9F009F, #BA44BA)
+}
+
+#app {
+  background: url("https://dl.dropbox.com/s/3ei3gcdzl3r0xuv/firstDate.jpg?dl=0") no-repeat center;
   background-size: cover;
 }
 
@@ -16,5 +20,5 @@ body {
 .navbar {
   font-family: 'Dancing Script', cursive;
   font-size: 5em;
-
+  color: #4F0EA6;
 }

@@ -25,4 +25,10 @@ loaders tells webpack what kind of files we are loading. In our case .jsx
       }
     ]
   },
+  node : {
+    console: false,
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty'
+  }
 };
