@@ -4,12 +4,14 @@ body, html {
 }
 
 body {
-  background: linear-gradient(#9F009F, #BA44BA)
+  background: linear-gradient(#AA23AA, #B945B9)
 }
 
-#app {
-  background: url("https://dl.dropbox.com/s/3ei3gcdzl3r0xuv/firstDate.jpg?dl=0") no-repeat center;
-  background-size: cover;
+#bkg {
+  width: 100%;
+  position: absolute;
+  display: float;
+  z-index: -1;
 }
 
 .container {

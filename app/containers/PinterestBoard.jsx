@@ -5,7 +5,7 @@ class PinterestBoard extends React.Component {
   constructor(){
     super()
     this.state = {
-      href:"https://www.pinterest.com/anapinskywalker/style/",
+      href:"https://www.pinterest.com/badnewsbaby/warpaintwedding/",
       dataPinDo: "embedBoard",
       dataPinBoardWidth: "400",
       dataPinScaleHeight: "320",
