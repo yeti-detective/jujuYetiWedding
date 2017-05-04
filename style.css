@@ -4,7 +4,7 @@ body, html {
 }
 
 body {
-  background: linear-gradient(#AA23AA, #B945B9)
+  background: linear-gradient(#450045, #9C3C9C)
 }
 
 #bkg {
@@ -12,6 +12,7 @@ body {
   position: absolute;
   display: float;
   z-index: -1;
+  opacity: 0.8;
 }
 
 .container {
