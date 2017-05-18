@@ -1,6 +1,10 @@
 import React from 'react'
 import WeddingBoard from '../components/WeddingBoard.jsx'
 
+const style = {
+  display: "block"
+}
+
 class PinterestBoard extends React.Component {
   constructor(){
     super()
@@ -15,7 +19,9 @@ class PinterestBoard extends React.Component {
 
   render(){
     return(
-      <WeddingBoard displayProps={this.state} />
+      <div style={style}>
+        <WeddingBoard displayProps={this.state} />
+      </div>
     )
   }
 }
