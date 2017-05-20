@@ -14,7 +14,6 @@ class App extends React.Component {
 			<div className="container">
 				<NavBar text="Save the Date"/>
 				<ElevenEleven />
-				<ZolaVid />
 				<PinterestBoard />
 			</div>
 		);
