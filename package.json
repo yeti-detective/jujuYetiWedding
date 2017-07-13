@@ -28,5 +28,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yeti-detective/jujuYetiWedding"
+  },
+  "engines": {
+    "node": "6.11.1"
   }
 }
